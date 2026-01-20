@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, #0b1220, #000);
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1E3A8A;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero{
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(135deg, #1E3A8A, #22D3EE);
+}
+
+.hero h1{
+    font-size: 36px;
+}
+
+.section{
+    padding: 40px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card{
+    background: #111827;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+button{
+    background: #22D3EE;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: #1E3A8A;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #1E3A8A;
+}
